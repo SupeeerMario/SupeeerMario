@@ -13,23 +13,9 @@
 - 🧠 **Backend engineer** who cares what happens when things go wrong
 - 🔁 Into **idempotency, retries, queues, transactions** and crash recovery
 - 🐹 Writing **Go** for concurrency, **Python/Django** for APIs, **Node.js** for pipelines
-- 💸 Built a billing API that **never double-charges**
-- 📦 Built an import pipeline that handles **500k rows** with flat memory
-- 📡 Built an uptime monitor where **one hung endpoint can't stall the rest**
 - 🌱 Currently going deeper into **distributed systems**
 
 <br clear="right"/>
-
-```console
-$ kill -9 <import-worker>
-resumed from checkpoint: 500,000 rows, 0 lost, 0 duplicated
-
-$ POST /pay  (same Idempotency-Key, 8 threads)
-charged once
-
-$ probe hung-endpoint
-other monitors unaffected
-```
 
 ## 🛠️ Tech stack
 
