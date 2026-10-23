@@ -68,13 +68,4 @@ khaled@prod:~$ ./probe --target=hung-endpoint.com
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 </details>
 
-<details>
-<summary><b>🎨 Frontend (when I have to)</b></summary>
-<br/>
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
-</details>
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7209b7,50:3a0ca3,100:0d1117&height=120&section=footer" width="100%"/>
