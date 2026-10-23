@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:3a0ca3,100:7209b7&height=260&section=header&text=KHALED&fontSize=90&fontColor=ffffff&animation=twinkling&desc=backend%20engineer%20%E2%80%A2%20distributed%20systems&descSize=18&descAlignY=72&fontAlignY=40&stroke=b5179e&strokeWidth=2" width="100%"/>
+<img src="./banner.svg" width="100%"/>
 
 <h1 align="center">Hi, I'm Khaled <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32"/></h1>
 
