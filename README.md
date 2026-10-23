@@ -11,7 +11,13 @@ I care about what happens when things fail: **crashed workers**, **duplicate req
 
 I write **Go** for concurrency, **Python/Django** for APIs, and **Node.js** for data pipelines.
 
-Currently going deeper into **DevOps**.
+Currently learning **Kubernetes** and **Terraform**.
+
+### Projects
+
+- **[multi-tenant-billing-system](https://github.com/SupeeerMario/multi-tenant-billing-system)**: a billing API that never double-charges, proven by an 8-thread race test. Django, Postgres, Celery. [Live demo](https://multi-tenant-billing-app.duckdns.org/api/docs/)
+- **[uptime-monitor](https://github.com/SupeeerMario/uptime-monitor)**: a concurrent Go scheduler where one hung endpoint can't stall the others, with a test that proves it.
+- **[bulk-data-import-pipeline](https://github.com/SupeeerMario/bulk-data-import-pipeline)**: crash-safe streaming CSV/Excel import with retries, a dead-letter queue and error reports.
 
 ### Stack
 
@@ -24,3 +30,7 @@ Currently going deeper into **DevOps**.
 > **queues** &nbsp; `Redis` `Celery`
 >
 > **infra** &nbsp; `Docker` `Linux` `Git`
+
+### Contact
+
+Open to backend roles. [LinkedIn](https://www.linkedin.com/in/khaled-elfeki/) · [Email](mailto:khaledcfeki@gmail.com)
