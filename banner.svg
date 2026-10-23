@@ -1,59 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#05010d"/>
-      <stop offset="1" stop-color="#140428"/>
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161028"/>
     </linearGradient>
     <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#4cc9f0"/>
-      <stop offset="0.5" stop-color="#b5179e"/>
-      <stop offset="1" stop-color="#f72585"/>
-      <animate attributeName="x1" values="0;-1;0" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="1;2;1" dur="6s" repeatCount="indefinite"/>
+      <stop offset="1" stop-color="#b5179e"/>
     </linearGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#7209b7" stroke-opacity="0.18"/>
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
     </pattern>
-    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#4cc9f0" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#4cc9f0" stop-opacity="0.25"/>
-      <stop offset="1" stop-color="#4cc9f0" stop-opacity="0"/>
-    </linearGradient>
   </defs>
 
-  <rect width="1200" height="300" fill="url(#bg)"/>
-  <rect width="1200" height="300" fill="url(#grid)"/>
+  <rect width="1200" height="260" fill="url(#bg)"/>
+  <rect width="1200" height="260" fill="url(#grid)"/>
 
-  <!-- scanline sweeping down -->
-  <rect x="0" y="-60" width="1200" height="60" fill="url(#scan)">
-    <animate attributeName="y" values="-60;300" dur="4s" repeatCount="indefinite"/>
-  </rect>
+  <text x="600" y="140" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="96" font-weight="700" letter-spacing="10" fill="url(#txt)">KHALED</text>
 
-  <!-- corner brackets -->
-  <g stroke="#4cc9f0" stroke-width="3" fill="none" opacity="0.8">
-    <path d="M30 70V30H70"/><path d="M1130 30H1170V70"/>
-    <path d="M30 230V270H70"/><path d="M1130 270H1170V230"/>
-  </g>
-
-  <text x="60" y="58" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="16" fill="#4cc9f0" opacity="0.7">~/khaled $ ./boot --mode=prod</text>
-  <text x="1140" y="58" text-anchor="end" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="16" fill="#f72585" opacity="0.8">● ONLINE<animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.6s" repeatCount="indefinite"/></text>
-
-  <!-- glitch copies -->
-  <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="110" font-weight="800" text-anchor="middle" letter-spacing="14">
-    <text x="600" y="185" fill="#4cc9f0" opacity="0">KHALED
-      <animate attributeName="x" values="600;592;600;606;600" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0;0.7;0;0;0" keyTimes="0;0.6;0.62;0.64;0.9;1" dur="3s" repeatCount="indefinite"/>
-    </text>
-    <text x="600" y="185" fill="#f72585" opacity="0">KHALED
-      <animate attributeName="x" values="600;608;600;594;600" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0;0.7;0;0;0" keyTimes="0;0.6;0.62;0.64;0.9;1" dur="3s" repeatCount="indefinite"/>
-    </text>
-    <text x="600" y="185" fill="url(#txt)" filter="url(#glow)">KHALED</text>
-  </g>
-
-  <text x="600" y="240" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="22" fill="#e0e0ff" letter-spacing="3">backend engineer // distributed systems<tspan fill="#f72585">_<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+  <text x="600" y="190" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="20" fill="#8b949e" letter-spacing="2">backend engineer · distributed systems<tspan fill="#b5179e">_<animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/></tspan></text>
 </svg>

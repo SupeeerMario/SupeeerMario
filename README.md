@@ -3,7 +3,7 @@
 <h1 align="center">Hi, I'm Khaled <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32"/></h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=F72585&center=true&vCenter=true&width=650&lines=%3E+building+systems+that+refuse+to+die;%3E+retries.+idempotency.+transactions.;%3E+kill+the+worker.+nothing+gets+lost.;%3E+charge+twice%3F+not+on+my+ledger." />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1500&color=8B949E&center=true&vCenter=true&width=600&lines=backend+%C2%B7+distributed+systems;idempotency%2C+retries%2C+transactions;Go+%C2%B7+Python+%C2%B7+Node.js" />
 </p>
 
 ## ⚡ About me
@@ -14,22 +14,21 @@
 - 🔁 Into **idempotency, retries, queues, transactions** and crash recovery
 - 🐹 Writing **Go** for concurrency, **Python/Django** for APIs, **Node.js** for pipelines
 - 💸 Built a billing API that **never double-charges**
-- 📦 Built an import pipeline that eats **500k rows** with flat memory
+- 📦 Built an import pipeline that handles **500k rows** with flat memory
 - 📡 Built an uptime monitor where **one hung endpoint can't stall the rest**
 - 🌱 Currently going deeper into **distributed systems**
 
 <br clear="right"/>
 
 ```console
-khaled@prod:~$ kill -9 $(pgrep import-worker)
-worker died mid-import
-resuming from checkpoint... ✔ 500,000 rows · 0 lost · 0 duplicated
+$ kill -9 <import-worker>
+resumed from checkpoint: 500,000 rows, 0 lost, 0 duplicated
 
-khaled@prod:~$ curl -X POST /pay -H "Idempotency-Key: 42"  # x8 threads
-✔ charged once
+$ POST /pay  (same Idempotency-Key, 8 threads)
+charged once
 
-khaled@prod:~$ ./probe --target=hung-endpoint.com
-✔ other monitors unaffected. it's fine. everything is fine.
+$ probe hung-endpoint
+other monitors unaffected
 ```
 
 ## 🛠️ Tech stack
