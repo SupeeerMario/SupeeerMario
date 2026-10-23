@@ -3,7 +3,7 @@
 </p>
 
 <h2 align="center">Hi, I'm Khaled</h2>
-<p align="center"><b>backend engineer</b> · distributed systems</p>
+<p align="center"><b>backend engineer</b></p>
 
 ### About me
 
