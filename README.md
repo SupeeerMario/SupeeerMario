@@ -6,8 +6,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=F72585&center=true&vCenter=true&width=650&lines=%3E+building+systems+that+refuse+to+die;%3E+retries.+idempotency.+transactions.;%3E+kill+the+worker.+nothing+gets+lost.;%3E+charge+twice%3F+not+on+my+ledger." />
 </p>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
-
 ## ⚡ About me
 
 <img align="right" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="320"/>
@@ -33,8 +31,6 @@ khaled@prod:~$ curl -X POST /pay -H "Idempotency-Key: 42"  # x8 threads
 khaled@prod:~$ ./probe --target=hung-endpoint.com
 ✔ other monitors unaffected. it's fine. everything is fine.
 ```
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
 
 ## 🛠️ Tech stack
 
@@ -80,34 +76,5 @@ khaled@prod:~$ ./probe --target=hung-endpoint.com
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 </details>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
-
-## 📊 Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SupeeerMario&show_icons=true&theme=tokyonight&hide_border=true&hide=stars&count_private=true" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SupeeerMario&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=SupeeerMario&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SupeeerMario/SupeeerMario/output/github-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/SupeeerMario/SupeeerMario/output/github-snake.svg" alt="snake eating my contributions" />
-  </picture>
-</p>
-
-## 📫 Connect
-
-<p align="left">
-  <a href="https://github.com/SupeeerMario"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <!-- TODO: put your real links in and uncomment
-  <a href="https://linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  -->
-</p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7209b7,50:3a0ca3,100:0d1117&height=120&section=footer" width="100%"/>
