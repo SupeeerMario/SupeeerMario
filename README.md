@@ -1,29 +1,26 @@
-<img src="./banner.svg" width="100%" alt="Khaled, backend engineer, distributed systems"/>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="360" alt="animated developer at a desk"/>
+</p>
 
-### About
+<h2 align="center">Hi, I'm Khaled</h2>
+<p align="center"><b>backend engineer</b> · distributed systems</p>
 
-I'm Khaled, a backend engineer. I care about what happens when things fail: **crashed workers, duplicate requests, hung endpoints**.
+### About me
 
-I write **Go** for concurrency, **Python/Django** for APIs, and **Node.js** for data pipelines. Currently going deeper into **DevOps**.
+I care about what happens when things fail: **crashed workers**, **duplicate requests**, **hung endpoints**. Most of my work is making sure the system still does the right thing when they happen: idempotency, retries, transactions, and queues that don't lose messages.
 
-<img src="./pipeline.svg" width="100%" alt="queue to worker to db, with retries, ack after commit"/>
+I write **Go** for concurrency, **Python/Django** for APIs, and **Node.js** for data pipelines.
+
+Currently going deeper into **DevOps**.
 
 ### Stack
 
-| | |
-| --- | --- |
-| **Languages** | Go · Python · JavaScript |
-| **Frameworks** | Django · Express · Gin |
-| **Data** | PostgreSQL · MongoDB · MinIO |
-| **Queues** | Redis · Celery |
-| **Infra** | Docker · Linux · Git |
-
-### Now
-
-```console
-$ whoami
-khaled · backend engineer
-
-$ cat now.txt
-going deeper into devops: containers, pipelines, deploys
-```
+> **languages** &nbsp; `Go` `Python` `JavaScript`
+>
+> **frameworks** &nbsp; `Django` `Express` `Gin`
+>
+> **data** &nbsp; `PostgreSQL` `MongoDB` `MinIO`
+>
+> **queues** &nbsp; `Redis` `Celery`
+>
+> **infra** &nbsp; `Docker` `Linux` `Git`
