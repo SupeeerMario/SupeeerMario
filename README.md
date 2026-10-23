@@ -1,56 +1,5 @@
-<img src="./banner.svg" width="100%"/>
+<img src="./banner.svg" width="100%" alt="Khaled, backend engineer, distributed systems"/>
 
-<h1 align="center">Hi, I'm Khaled <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32"/></h1>
+<img src="./about.svg" width="100%" alt="Backend engineer. I care about what happens when things fail: crashed workers, duplicate requests, hung endpoints. Go for concurrency, Python/Django for APIs, Node.js for data pipelines. Currently going deeper into DevOps."/>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1500&color=8B949E&center=true&vCenter=true&width=600&lines=backend+%C2%B7+distributed+systems;idempotency%2C+retries%2C+transactions;Go+%C2%B7+Python+%C2%B7+Node.js" />
-</p>
-
-## ⚡ About me
-
-<img align="right" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="320"/>
-
-- 🧠 **Backend engineer** who cares what happens when things go wrong
-- 🔁 Into **idempotency, retries, queues, transactions** and crash recovery
-- 🐹 Writing **Go** for concurrency, **Python/Django** for APIs, **Node.js** for pipelines
-- 🌱 Currently going deeper into **distributed systems**
-
-<br clear="right"/>
-
-## 🛠️ Tech stack
-
-<details open>
-<summary><b>⚙️ Backend</b></summary>
-<br/>
-
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![DRF](https://img.shields.io/badge/DRF-A30000?style=for-the-badge&logo=django&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Gin](https://img.shields.io/badge/Gin-008ECF?style=for-the-badge&logo=go&logoColor=white)
-</details>
-
-<details open>
-<summary><b>🗄️ Data & Queues</b></summary>
-<br/>
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
-![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white)
-</details>
-
-<details open>
-<summary><b>🐳 DevOps & Tools</b></summary>
-<br/>
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-</details>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7209b7,50:3a0ca3,100:0d1117&height=120&section=footer" width="100%"/>
+<img src="./stack.svg" width="100%" alt="Stack: Go, Python, JavaScript, Django, Express, Gin, PostgreSQL, MongoDB, Redis, MinIO, Celery, Docker, Linux, Git"/>
